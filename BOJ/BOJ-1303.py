@@ -6,7 +6,8 @@ N, M = map(int, input().split())  # N: 가로 M: 세로
 battle_gnd = []
 w_power, b_power = 0, 0
 cnt = 0
-battle_gnd.append(list(map(str, input())))
+for _ in range(M):
+    battle_gnd.append(list(map(str, input())))
 
 def dfs_w(i, j): # 흰색 병사 탐색
     # 이어진 흰색 병사 없을 경우 or 벽면에 다다른 경우 종료
