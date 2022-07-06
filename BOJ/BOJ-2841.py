@@ -1,4 +1,4 @@
-# BOJ 2841 외계인의 기타 연주
+# BOJ 2841 외계인의 기타 연주 (스택)
 import sys
 input = sys.stdin.readline
 N, P = map(int, input().split())
