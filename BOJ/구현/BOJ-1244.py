@@ -1,3 +1,4 @@
+# BOJ 1244 스위치 켜고 끄기
 import sys
 input = sys.stdin.readline
 
