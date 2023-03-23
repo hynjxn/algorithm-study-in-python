@@ -1,3 +1,4 @@
+# BOJ 1339 단어 수학
 import sys
 input = sys.stdin.readline
 
