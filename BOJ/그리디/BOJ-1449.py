@@ -1,4 +1,4 @@
-# BOJ 1449
+# BOJ 1449 수리공 항승
 import sys
 input = sys.stdin.readline
 
