@@ -1,4 +1,4 @@
-#BOJ 1599 민식어
+# BOJ 1599 민식어
 import sys
 from functools import cmp_to_key
 input = sys.stdin.readline
