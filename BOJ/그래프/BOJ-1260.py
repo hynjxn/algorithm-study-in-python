@@ -1,3 +1,4 @@
+# BOJ 1260 DFS와 BFS
 import sys
 from collections import deque
 input = sys.stdin.readline
