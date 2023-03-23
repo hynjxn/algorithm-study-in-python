@@ -1,3 +1,4 @@
+# BOJ 5397 키로거
 import sys
 input = sys.stdin.readline
 
