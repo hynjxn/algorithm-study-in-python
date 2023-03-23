@@ -1,3 +1,4 @@
+# BOJ 2504 괄호의 값
 import sys
 input = sys.stdin.readline
 
