@@ -13,13 +13,17 @@ for i in range(N):
 for w, l in compares:
     graph[w - 1][l - 1] = 1
     graph[l - 1][w - 1] = -1
-for k in range(N):
-    for i in range(N):
-        for j in range(N):
-            if graph[i][j] == INF:
-                if graph[i][k] == 1 and graph[k][j] == 1:
-                    graph[i][j] = 1
-                    graph[j][i] = -1
+
+for i in range(N):
+    for j in range(N):
+        if graph[i][j] != INF:
+            continue
+        for k in range(N):
+            if graph[i][k] == graph[k][j] and graph[i][k]!=INF:
+                graph[i][j] = graph[i][k]
+                graph[j][i] = -graph[i][k]
+                break
+
 for i in range(N):
     if INF not in graph[i]:
         ans += 1
