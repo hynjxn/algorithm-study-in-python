@@ -1,4 +1,4 @@
-# BOJ 10775 공항
+# BOJ 10775 공항 (유니온파인드)
 import sys
 input = sys.stdin.readline
 
