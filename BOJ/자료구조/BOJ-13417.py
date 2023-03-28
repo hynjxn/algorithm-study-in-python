@@ -1,3 +1,4 @@
+# BOJ 13417 카드 문자열
 # deque을 이용한 풀이
 from collections import deque
 
