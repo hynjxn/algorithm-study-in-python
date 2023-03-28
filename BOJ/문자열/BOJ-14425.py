@@ -1,3 +1,4 @@
+# BOJ 14425 문자열 집합
 import sys
 input = sys.stdin.readline
 
