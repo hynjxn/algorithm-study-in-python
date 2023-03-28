@@ -1,3 +1,4 @@
+# BOJ 14402 야근
 import sys
 input = sys.stdin.readline
 
